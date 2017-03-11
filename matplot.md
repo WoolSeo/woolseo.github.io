@@ -36,7 +36,7 @@ plt.show()
 <img src=./images/matplot1_a.png width=600px>
 
 (0,0)과 (60,73) 두 점을 잇는 직선이다. 쉽다.
-'import'는 라이브러리를 불러온다.
+`import`는 라이브러리를 불러온다.
 
 
 - 점 세 개를 연결해보자.
@@ -70,7 +70,7 @@ plt.show()
 <img src=./images/matplot1_c.png width=600px>
 
 
-- 마지막으로 x축과 y축의 범위를 'plt.axis'로 설정할 수 있다.
+- 마지막으로 x축과 y축의 범위를 `plt.axis`로 설정할 수 있다.
 그리고 간단히 연산도 시킬 수 있다.
 
 <pre>
@@ -107,7 +107,7 @@ plt.show()
 <img src=./images/matplot2_a.png width=600px>
 
 
-가로 축에 사용할 t의 범위를 'arrange'를 이용해 정의했다. 0에서부터 10까지 0.01 간격으로 배열을 만들었다. 세로 축인 x는 t에 대한 사인함수이다. 'plot'에서 'linewidth'를 통해 선의 굵기를 설정했다.
+가로 축에 사용할 t의 범위를 `arrange`를 이용해 정의했다. 0에서부터 10까지 0.01 간격으로 배열을 만들었다. 세로 축인 x는 t에 대한 사인함수이다. `plot`에서 `linewidth`를 통해 선의 굵기를 설정했다.
 
 
 - 다른 함수를 하나 그려보자.
