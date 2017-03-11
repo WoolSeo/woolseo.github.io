@@ -4,6 +4,7 @@
 - Gnuplot http://www.gnuplot.info/
 - Processing https://www.processing.org/
 - Python Matplotlib http://matplotlib.org/ 
+
 셋 다 대부분의 OS를 지원한다. Windows, Mac, linux까지 지원한다.
 여러가지 이유가 있지만 난 Matplotlib을 사용하려 한다.
 
