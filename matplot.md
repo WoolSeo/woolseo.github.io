@@ -6,7 +6,7 @@
 - Python Matplotlib http://matplotlib.org/ 
 
 셋 다 대부분의 OS를 지원한다. Windows, Mac, linux까지 지원한다.
-여러가지 이유가 있지만 난 Matplotlib을 사용하려 한다.
+여러가지 이유가 있지만 난 **Matplotlib**을 사용하려 한다.
 파이썬이 처음이라고? 그래도 괜찮다. 아주 간단하다.
 
 ##Python IDE 설치
@@ -130,4 +130,4 @@ plt.show()
 
 <img src=./images/matplot2_b.png width=600px>
 
-파이썬에서 거듭제곱은 '**'이다. 'scatter'는 점을 찍어준다.
+파이썬에서 거듭제곱은 ~~**~~이다. ~~scatter~~는 점을 찍어준다.
