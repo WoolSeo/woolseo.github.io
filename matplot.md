@@ -17,6 +17,7 @@ Matplotlib는 파이썬의 라이브러리이다. 사용하려면 당연히 파�
 - Canopy https://www.enthought.com/products/canopy/
 
 두 개 중 하나를 받아 설치하자. 사용법은 DEV C++이나 Code block과 거의 비슷하다.
+
 여기서 난 Canopy를 사용했다.
 참고로 파이썬이 궁금하다면? https://wikidocs.net/book/1
 
