@@ -7,9 +7,67 @@
 
 셋 다 대부분의 OS를 지원한다. Windows, Mac, linux까지 지원한다.
 여러가지 이유가 있지만 난 Matplotlib을 사용하려 한다.
+파이썬이 처음이라고? 그래도 괜찮다. 아주 간단하다.
 
 ##Python IDE 설치
+Matplotlib는 파이썬의 라이브러리이다. 사용하려면 당연히 파이썬을 설치해야 한다.
+아주 하드하게 파이썬만 깔고 텍스트에디터에서 코딩해 저장한 다음 콘솔에서 실행할 수 있다.
+하지만 난 IDE를 사용할 것을 추천한다. 여러모로 실행까지 편하다. 내가 사용해 본 IDE는 2개다.
+- Anaconda https://www.continuum.io/downloads
+- Canopy https://www.enthought.com/products/canopy/
 
-##점으로 그래프 그리기
+두 개 중 하나를 받아 설치하자. 사용법은 DEV C++이나 Code block과 거의 비슷하다.
+여기서 난 Canopy를 사용했다.
+참고로 파이썬이 궁금하다면? https://wikidocs.net/book/1
+
+##점으로 그래프 그리
+점의 좌표를 입력해서 그 점들을 잇는 가장 간단한 직선 그래프를 그려보자.
+<pre>
+import matplotlib.pyplot as plt
+
+plt.plot([0,60],[0,73])
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+(0,0)과 (60,73) 두 점을 잇는 직선이다. 쉽다.
+'import'는 라이브러리를 불러온다.
+
+점 세 개를 연결해보자.
+<pre>
+import matplotlib.pyplot as plt
+
+plt.plot([0,60,84],[0,73.2,146.4])
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+
+(0,0)과 (60,73.2), (84, 146.4) 세 점을 연결했다.
+
+또 다른 직선을 하나 추가해보자.
+<pre>
+import matplotlib.pyplot as plt
+
+plt.plot([0,60,84],[0,73.2,146.4])
+plt.plot([0,84],[0,146.4])
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+
+마지막으로 x축과 y축의 범위를 'plt.axis'로 설정할 수 있다.
+그리고 간단히 연산도 시킬 수 있다.
+<pre>
+import matplotlib.pyplot as plt
+
+plt.axis([0,130,0,300])
+plt.plot([0,60,120],[0,1.22*60,3.05*60+1.22*60])
+plt.plot([0,120],[0,3.05*60+1.22*60])
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+
 
 ##함수 그래프 그리기
