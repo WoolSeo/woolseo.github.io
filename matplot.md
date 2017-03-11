@@ -72,3 +72,38 @@ plt.show()
 
 
 ##함수 그래프 그리기
+임의의 수식을 그래프로 나타내야 할 때가 많다. 함수를 그리는 것도 간단하다. 함수를 정의하고 사용하면 된다.
+<pre>
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = np.arange(0.,10.,0.01)
+x = np.sin(t)
+
+plt.axis([0,10,-1.5,1.5])
+plt.plot(t,x,linewidth=2.)
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+가로 축에 사용할 t의 범위를 'arrange'를 이용해 정의했다. 0에서부터 10까지 0.01 간격으로 배열을 만들었다. 세로 축인 x는 t에 대한 사인함수이다. 'plot'에서 'linewidth'를 통해 선의 굵기를 설정했다.
+
+
+다른 함수를 하나 그려보자.
+<pre>
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = np.arange(0.,4.,0.01)
+x = 3*t - 4 * t**2 + t**3
+
+plt.axis([0,5,-5,15])
+plt.plot(t,x,linewidth=2.)
+plt.plot([2,4],[-2,12],color='black',linestyle='dashed')
+plt.scatter([2,4],[-2,12],color='black')
+plt.xlabel('t[s]')
+plt.ylabel('x[m]')
+plt.show()
+</pre>
+
+파이썬에서 거듭
