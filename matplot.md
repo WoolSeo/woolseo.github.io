@@ -31,6 +31,8 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot1_a.png width=600px>
+
 (0,0)과 (60,73) 두 점을 잇는 직선이다. 쉽다.
 'import'는 라이브러리를 불러온다.
 
@@ -43,6 +45,7 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot1_b.png width=600px>
 
 (0,0)과 (60,73.2), (84, 146.4) 세 점을 연결했다.
 
@@ -56,6 +59,7 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot1_c.png width=600px>
 
 마지막으로 x축과 y축의 범위를 'plt.axis'로 설정할 수 있다.
 그리고 간단히 연산도 시킬 수 있다.
@@ -69,6 +73,7 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot1_d.png width=600px>
 
 
 ##함수 그래프 그리기
@@ -86,6 +91,8 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot2_a.png width=600px>
+
 가로 축에 사용할 t의 범위를 'arrange'를 이용해 정의했다. 0에서부터 10까지 0.01 간격으로 배열을 만들었다. 세로 축인 x는 t에 대한 사인함수이다. 'plot'에서 'linewidth'를 통해 선의 굵기를 설정했다.
 
 
@@ -105,5 +112,6 @@ plt.xlabel('t[s]')
 plt.ylabel('x[m]')
 plt.show()
 </pre>
+<img src=./images/matplot2_b.png width=600px>
 
 파이썬에서 거듭
