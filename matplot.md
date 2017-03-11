@@ -35,6 +35,7 @@ plt.show()
 
 <img src=./images/matplot1_a.png width=600px>
 
+
 (0,0)과 (60,73) 두 점을 잇는 직선이다. 쉽다.
 `import`는 라이브러리를 불러온다.
 
