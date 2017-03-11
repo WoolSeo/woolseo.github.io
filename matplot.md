@@ -130,4 +130,4 @@ plt.show()
 
 <img src=./images/matplot2_b.png width=600px>
 
-파이썬에서 거듭제곱은 ~**~이다. ~scatter~는 점을 찍어준다.
+파이썬에서 거듭제곱은 `**`이다. `scatter`는 점을 찍어준다.
